@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card-container {
+  height: 80vh;
+  background-color: #f1f5f8;
+  text-align: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+  color: #2d3a35;
+  padding: 10px;
+}
+.para {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #2d3a35;
+}
+.span {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #c20a72;
+}
+.button {
+  font-family: 'Roboto';
+  font-size: 15px;
+  background-color: #007bff;
+  color: #ffffff;
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  border-width: 0px;
+}
